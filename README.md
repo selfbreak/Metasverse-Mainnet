@@ -64,3 +64,9 @@ geth --datadir ./node account new
  ``
  geth --datadir ./node init ./node/genesis.json
  ``
+ 
+ ## 开启挖矿
+
+ ``
+ geth --datadir node --port 8089 --identity "Metasverse Chain" --networkid 348972
+ ``
