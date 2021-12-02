@@ -65,6 +65,7 @@ mkdir node && cd node
 
 
  ``
+ 
  geth --datadir ./node init ./node/genesis.json
  
  ``
