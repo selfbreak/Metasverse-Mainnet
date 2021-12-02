@@ -12,7 +12,6 @@ mkdir node && cd node
 
 ## 3.在node目录新增 genesis.json 创世区块文件，内容为 ：
 
-
 ```json
 {
   "config": {
