@@ -57,6 +57,7 @@ mkdir node && cd node
 
 
  ``
+ 
  geth --datadir ./node account new
  
  ``
