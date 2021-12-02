@@ -53,5 +53,10 @@ mkdir node && cd node
 }
 ```
 
+## 4.创建一个初始挖矿账号,
+ ``
+ geth --datadir ./node account new
+ 
+ ``
 
 
