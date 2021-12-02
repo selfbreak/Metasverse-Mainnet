@@ -12,8 +12,8 @@ mkdir node && cd node
 
 ## 3.在node目录新增 genesis.json 创世区块文件，内容为 ：
 
-``
 
+```json
 {
   "config": {
     "chainId": 348972,
@@ -51,9 +51,7 @@ mkdir node && cd node
   "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
   "baseFeePerGas": null
 }
-
-
-``
+```
 
 
 
