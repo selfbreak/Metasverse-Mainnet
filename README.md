@@ -8,12 +8,11 @@ https://geth.ethereum.org/docs/install-and-build/installing-geth
 
 ``
 mkdir node && cd node
-
 ``
 
 ## 3.在node目录新增 genesis.json 创世区块文件，内容为 ：
 
-··
+``
 
 {
   "config": {
@@ -54,7 +53,7 @@ mkdir node && cd node
 }
 
 
-··
+``
 
 
 
