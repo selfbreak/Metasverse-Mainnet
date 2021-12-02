@@ -61,9 +61,6 @@ geth --datadir ./node account new
 
 ## 5.初始化节点
 
-
  ``
- 
  geth --datadir ./node init ./node/genesis.json
- 
  ``
