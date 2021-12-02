@@ -55,12 +55,9 @@ mkdir node && cd node
 
 ## 4.创建一个初始挖矿账号
 
-
- ``
- 
- geth --datadir ./node account new
- 
- ``
+``
+geth --datadir ./node account new
+``
 
 ## 5.初始化节点
 
