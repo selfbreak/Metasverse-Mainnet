@@ -52,6 +52,7 @@ mkdir node && cd node
 }
 ```
 
+
 ## 4.创建一个初始挖矿账号
 
 
@@ -60,4 +61,10 @@ mkdir node && cd node
  
  ``
 
+## 5.初始化节点
 
+
+ ``
+ geth --datadir ./node init ./node/genesis.json
+ 
+ ``
