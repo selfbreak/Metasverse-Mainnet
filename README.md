@@ -68,5 +68,5 @@ geth --datadir ./node account new
  ## 开启挖矿
 
  ``
- geth --datadir node --port 8089 --identity "Metasverse Chain" --networkid 348972
+ geth  --mine --miner.threads=2 --datadir ./node3 --identity "Metasverse Chain" --networkid 348972 --bootnodes "enode://cb1e85fa581c7bb4ac6606e3f5eb51f8231c859444a8b393f2f4b8e9b1533abf9c0bf5b2bb2c9bc78468aac855718f9faab81ea8fe6ea0112bf2aa81021d2f63@106.52.241.128:8087" console
  ``
